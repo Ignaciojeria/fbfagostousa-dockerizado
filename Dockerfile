@@ -24,7 +24,7 @@ ENV JAVA_HOME=/opt/jdk-minimal
 ENV PATH="$PATH:$JAVA_HOME/bin"
 ENV APP_TIMEZONE=America/Santiago
 
-EXPOSE 8080
+EXPOSE 8081
 
 RUN mkdir app
 
